@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: greeting-service
+    
+
+# expoe  todos os endpoits disponiveis pelo actuator.
+# http://localhost:8080/actuator
+# http://localhost:8080/actuator/env - mostra dodas as variaveis de ambiente
+# http://localhost:8080/actuator/mappings - mostra todos os controlers
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+    
+greeting-service:
+  greeting: "Cia"
+  default-value: "Mondo"
