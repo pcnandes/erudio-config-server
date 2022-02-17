@@ -16,4 +16,4 @@ management:
     
 greeting-service:
   greeting: "Cia"
-  default-value: "Mondoooo"
+  default-value: "Mondo"
